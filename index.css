@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  background-color: lightgray;
+  color: rgb(131, 69, 247);
+  padding: 20px;
+  display: flex;
+  /* Ensure flexbox layout */
+  justify-content: space-between;
+  /* Align items to both ends */
+  align-items: center;
+  /* Center items vertically */
+}
+
+nav a {
+  margin-left: 20px;
+  /* Spacing between links */
+  text-decoration: none;
+  font-size: 20px;
+  /* Ensure same font size as logo */
+  color: rgb(91, 44, 199);
+
+  padding-right: 20; /* Increase or adjust as needed */
+
+}
+
+nav a.active {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+nav .nav-links {
+  display: flex;
+  margin-left: auto;            /* Push links to the right side */
+  margin-right: 0px;           /* Add space from the right edge */
+  /* Layout links in a row */
+}
+
+
+nav a:first-child {
+  margin-left: 0;
+  /* Remove margin from the first link */
+}
+
+nav .logo {
+  font-size: 20px;
+  /* Ensure same font size as links */
+  font-weight: bold;
+}
+
+.products-nav {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  margin-bottom: 20px; /* Space between the nav and content */
+  background-color: rgb(220, 244, 252);
+}
+
+.products-nav a {
+  margin-right: 20px; /* Space between links */
+  text-decoration: none;
+  color: rgb(91, 44, 199); /* Same color as in the navbar */
+  
+}
+
+.products-nav a:last-child {
+  margin-right: 0; /* Remove margin from the last link */
+}
